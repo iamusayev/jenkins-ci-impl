@@ -11,10 +11,4 @@ public class JenkinsImplApplication {
     public static void main(String[] args) {
         SpringApplication.run(JenkinsImplApplication.class, args);
     }
-
-    @Bean
-    public CommandLineRunner run() {
-        return args -> System.out.println("Hello World");
-    }
-
 }
